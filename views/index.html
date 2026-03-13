@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav id="navbar">
+    <div class="logo">Anand's Portfolio</div>
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#work">Work Experience</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+    </ul>
+    <div class="toggle-theme" onclick="toggleTheme()">🌙</div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="hero-text">
+        <h1>Hi all, I'm Anand👋</h1>
+        <p>A passionate DevOps Engineer 🚀 with hands-on experience in AWS, CI/CD, Kubernetes, Docker, Terraform, and monitoring tools like Prometheus and Grafana. Automating infrastructure and delivering scalable solutions.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+        </div>
+        <div class="hero-buttons">
+            <a href="#contact" class="btn">Contact Me</a>
+            <a href="/images/resume.pdf" class="btn">Download My Resume</a>
+        </div>
+    </div>
+    <div class="hero-img">
+        <img src="/images/hero.jpg" alt="Hero Image">
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+        <div class="skill">AWS</div>
+        <div class="skill">Docker</div>
+        <div class="skill">Kubernetes</div>
+        <div class="skill">Terraform</div>
+        <div class="skill">CI/CD</div>
+        <div class="skill">Prometheus</div>
+        <div class="skill">Grafana</div>
+    </div>
+</section>
+
+<!-- Work Experience Section -->
+<section id="work">
+    <h2>Work Experience</h2>
+    <div class="work-container">
+        <div class="work-card">
+            <h3>DevOps Engineer</h3>
+            <p>Company ABC | 2022 - Present</p>
+            <ul>
+                <li>Automated deployment pipelines with Jenkins and GitHub Actions.</li>
+                <li>Managed AWS infrastructure using Terraform and CloudFormation.</li>
+            </ul>
+        </div>
+        <div class="work-card">
+            <h3>Cloud Engineer</h3>
+            <p>Company XYZ | 2020 - 2022</p>
+            <ul>
+                <li>Implemented Kubernetes clusters and Dockerized applications.</li>
+                <li>Set up monitoring with Prometheus and Grafana.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Achievements Section -->
+<section id="achievements">
+    <h2>Achievements</h2>
+    <div class="achievements-container">
+        <div class="achievement">AWS Certified Solutions Architect</div>
+        <div class="achievement">Certified Kubernetes Administrator</div>
+        <div class="achievement">Top Performer Award 2021</div>
+    </div>
+</section>
+
+<!-- Resume Section -->
+<section id="resume">
+    <h2>Resume</h2>
+    <p>Download my resume <a href="/images/resume.pdf" class="btn">here</a></p>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form action="#" method="POST">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+</section>
+
+<script src="/js/main.js"></script>
+</body>
+</html>
